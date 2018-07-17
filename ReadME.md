@@ -47,7 +47,6 @@ To run the app, follow these steps.
   ```shell
   gulp watch
   ```
-7. Browse to [http://localhost:9000](http://localhost:9000) to see the app. You can make changes in the code found under `src` and the browser should auto-refresh itself as you save files. 
 
 ###Load Balancer(nginx) Configuration
 
@@ -65,4 +64,4 @@ proxy_pass "http://localhost:9000";
 
 }
 
-##Access the app in `localhost:8888`
+##Browse `http://localhost:8888` to access app
