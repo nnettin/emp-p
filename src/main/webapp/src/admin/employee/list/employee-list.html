@@ -1,0 +1,35 @@
+<template>
+	<div class="container">
+		<div class="row">
+		<div class="col-sm-12">
+			<a class="btn btn-primary btn-sm pull-right" route-href="route: empCreateOrUpdate">Add Employee</a>
+		</div>
+			<div class="col-sm-12">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>Emp Name</th>
+							<th>Emp Code</th>
+							<th>Emp Mobile</th>
+							<th>Emp Email</th>
+							<th>Emp City</th>
+							<th>Update</th>
+							<th>Delete</th>
+						</tr>
+					</thead>
+						<tbody>
+							<tr repeat.for="emp of empList" with.bind="emp">
+								<td>${firstName}-${lastName}</td>
+								<td>${empCode}</td>
+								<td>${mobile}</td>
+								<td>${email}</td>
+								<td>${city}</td>
+								<td><a route-href="route: empCreateOrUpdate;params.bind:{id:id}"><span class="fa fa-edit"></span>Update</a></td>
+								<td><a click.trigger="deleteEmployee(id)"><span class="fa fa-trash text-danger"></span></a></td>
+							</tr>
+						</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</template>
