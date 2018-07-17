@@ -1,13 +1,13 @@
 Min Tools required to run this required in your Machine
 
 
-###Backend Reruires
+## Backend Reruires
 1. IDE (Eclipse or STS)
 2. Java 1.8
 3. mySql 5
 
 
-###FrontEnd Requires
+## FrontEnd Requires
 1.Node should be installed in your machine
 2. I am using Aurelia (the next generation javascript Framework)
 
@@ -48,7 +48,7 @@ To run the app, follow these steps.
   gulp watch
   ```
 
-###Load Balancer(nginx) Configuration
+## Load Balancer(nginx) Configuration
 
 
 server {
@@ -64,4 +64,4 @@ proxy_pass "http://localhost:9000";
 
 }
 
-##Browse `http://localhost:8888` to access app
+## Browse `http://localhost:8888` to access app
