@@ -52,7 +52,7 @@ To run the app, follow these steps.
 
 
 server {
-   listen       8888;
+listen  8888;
 
 location /api{
  proxy_pass "http://localhost:6656/api";
