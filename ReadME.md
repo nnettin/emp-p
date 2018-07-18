@@ -9,7 +9,7 @@ Min Tools required to run this required in your Machine
 
 ## FrontEnd Requires
 1.Node should be installed in your machine
-2. I am using Aurelia (the next generation javascript Framework)
+2.I am using Aurelia (the next generation javascript Framework)
 
 
 ## Running The App
